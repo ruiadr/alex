@@ -1,0 +1,65 @@
+
+/* RESET */
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,
+details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,
+html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,
+small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video
+{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+/* STYLES */
+
+.carte span {bottom: 0; display: block; left: 0; position: absolute; right: 0; top: 0;}
+
+.carte > span {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    background-color: #FFF;
+    border: solid 1px #CCC;
+    overflow: hidden;
+}
+
+.carte > span > span {background-color: #EEE; margin: 10px; text-align: center;}
+
+.carte em {
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    color: #333;
+    display: block;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    left: 0;
+    line-height: 1em;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+#bottom, #top {padding: 50px 5px; text-align: center;}
+
+#top .carte,
+#bottom .carte {display: inline-block; position: relative;}
+
+#top .carte {height: 150px; width: 100px;}
+
+#top {border-bottom: solid 1px #CCC;}
+
+#bottom .carte {height: 70px; margin: 5px; vertical-align: middle; width: 60px;}
+
+.carte > span > span {margin: 5px;}
+
+#bottom .carte em {font-size: 30px;}
+
+.inputs {margin: 50px 0;}

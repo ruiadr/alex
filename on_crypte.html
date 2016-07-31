@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr-FR" role="document">
+  <head>
+    <title>On crypte ?</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="canonical" href="on_crypte.php" />
+  </head>
+  <body>
+    <h1>Hué mais bon, ça ne sert plus à rien ...</h1>
+    <p>A ce stade, tout ce que tu trouveras ici ne servira plus à rien, tu vas vite comprendre pourquoi ^^.</p>
+    <script type="text/javascript">
+        console.log (window.btoa ('Bon tu as été patient, voici la suite: une_photo_de_moi.jpg'));
+        
+        console.log (window.btoa ('Bon, si tu es arrivé jusqu\'ici, c\'est que tu es plutôt balaise...'));
+        console.log (window.btoa ('Désormais, il est temps de passer aux choses sérieuses ...'));
+        console.log (window.btoa ('Tout est lié ! ...'));
+        console.log (window.btoa ('J\'aurai pu continuer sur de l\'HTML ! ...'));
+        console.log (window.btoa ('Pourquoi d\'un coup, on part sur du PHP ? ...'));
+        console.log (window.btoa ('Pour t\'aider un peu ... pourquoi ai-je pris une photo de moi ? ...'));
+        console.log (window.btoa ('J\'aurai pu mettre un simple logo PHP ! ...'));
+        console.log (window.btoa ('Mais pourquoi la tête ? ...'));
+        console.log (window.btoa ('Au fait ... ça donnerait quoi en Anglais : la tête ...'));
+        console.log (window.btoa ('Et l\'entête ? ...'));
+        console.log (window.btoa ('J\'en ai déjà trop dit, en plus, ton inspecteur est déjà ouvert ...'));
+        console.log (window.btoa ('Bon courage pour la suite !'));
+        console.log (window.btoa ('8======D (_o_)'));
+        
+        /*
+        try {
+            if (!window.atob) {
+                throw new Error ('Hmm, ton navigateur est trop vieux ... essayes avec un autre!');
+            }
+            setTimeout (function () {
+                alert (window.atob ('Qm9uIHR1IGFzIOl06SBwYXRpZW50LCB2b2ljaSBsYSBzdWl0ZTogdW5lX3Bob3RvX2RlX21vaS5qcGc='));
+            }, 30000);
+        } catch (e) {
+            alert (e.message);
+            console.error ('Bbbhhhouuu');
+            var neSertARien_maisLOL = ['indice', 'trouver', 'inspecteur', 'base64', 'ajax'];
+            for (var i = 0; i < neSertARien_maisLOL.length; ++i) {
+                console.log (neSertARien_maisLOL[i]);
+            }
+        }
+        */
+        
+        /*
+        var ctn = document.getElementById ('message');
+        var cnt = ['', '.', '..', '...'];
+        var idx = 0;
+        
+        var m = setInterval (function () {
+            ctn.innerHTML = 'Message en cours de réception ' + cnt[idx];
+            if (++idx >= cnt.length) {
+                idx = 0;
+            }
+        }, 500);
+        
+        setTimeout (function () {
+            clearInterval (m);
+            idx = 5;
+            
+            ctn.setAttribute ('style', 'background-color:#DEB6B6;border:dotted 1px #632828;color:#632828;font-family:courier;font-weight:bold;padding:20px;');
+            ctn.innerHTML = 'Erreur !';
+            
+            m = setInterval (function () {
+                ctn.innerHTML = 'Erreur ! Tu as ' + idx + ' secondes pour ouvrir ta console ou je vais récupérer ton numéro de CB !';
+                if (--idx < 0) {
+                    clearInterval (m);
+                }
+            }, 1000);
+            
+            setTimeout (function () {
+                clearInterval (m);
+                ctn.innerHTML = 'Non mais c\'était pas vrai, c\'était une petit blagounette !';
+                ctn.setAttribute ('style', 'background-color:#8DBF8C;border:dotted 1px #285627;color:#285627;font-family:courier;font-weight:bold;padding:20px;');
+                
+                // Ca se corse un petit peu ...
+                var msg = [
+                    'Qm9uLCBzaSB0dSBlcyBhcnJpdukganVzcXUnaWNpLCBjJ2VzdCBxdWUgdHUgZXMgcGx1dPR0IGJhbGFpc2UuLi4=',
+                    'ROlzb3JtYWlzLCBpbCBlc3QgdGVtcHMgZGUgcGFzc2VyIGF1eCBjaG9zZXMgc+lyaWV1c2VzIC4uLg==',
+                    'VG91dCBlc3QgbGnpICEgLi4u',
+                    'SidhdXJhaSBwdSBjb250aW51ZXIgc3VyIGRlIGwnSFRNTCAhIC4uLg==',
+                    'UG91cnF1b2kgZCd1biBjb3VwLCBvbiBwYXJ0IHN1ciBkdSBQSFAgPyAuLi4=',
+                    'UG91ciB0J2FpZGVyIHVuIHBldSAuLi4gcG91cnF1b2kgYWktamUgcHJpcyB1bmUgcGhvdG8gZGUgbW9pID8gLi4u',
+                    'SidhdXJhaSBwdSBtZXR0cmUgdW4gc2ltcGxlIGxvZ28gUEhQICEgLi4u',
+                    'TWFpcyBwb3VycXVvaSBsYSB06nRlID8gLi4u',
+                    'QXUgZmFpdCAuLi4g52EgZG9ubmVyYWl0IHF1b2kgZW4gQW5nbGFpcyA6IGxhIHTqdGUgLi4u',
+                    'RXQgbCdlbnTqdGUgPyAuLi4=',
+                    'SidlbiBhaSBk6WrgIHRyb3AgZGl0LCBlbiBwbHVzLCB0b24gaW5zcGVjdGV1ciBlc3QgZOlq4CBvdXZlcnQgLi4u',
+                    'Qm9uIGNvdXJhZ2UgcG91ciBsYSBzdWl0ZSAh',
+                    'OD09PT09PUQgKF9vXyk='
+                ];
+                
+                idx = 0;
+                m = setInterval (function () {
+                    console.log (window.atob (msg[idx]));
+                    if (++idx >= msg.length) {
+                        clearInterval (m);
+                    }
+                }, 2000);
+            }, 7000);
+        }, 5000);
+        */
+    </script>
+  </body>
+</html>
