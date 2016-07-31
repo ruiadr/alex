@@ -5,7 +5,7 @@
     logallrefupdates = true
 [remote "origin"]
     url = https://github.com/ruiadr/alex.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
+    fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
-	remote = origin
-	merge = refs/heads/master
+    remote = origin
+    merge = refs/heads/master
