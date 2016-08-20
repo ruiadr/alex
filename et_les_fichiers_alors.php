@@ -14,6 +14,7 @@
 <html lang="fr-FR" role="document">
     <head>
         <title>Fichiers présents sur le serveur</title>
+        <meta robots="noindex,nofollow" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <link rel="canonical" href="et_les_fichiers_alors.php" />
